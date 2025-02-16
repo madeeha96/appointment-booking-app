@@ -1,6 +1,6 @@
 import React, { ReactElement, ReactNode } from "react";
 import Image from "next/image";
-import NavigationBar from "@/components/navigationBar/navigationBarComponent";
+import NavigationBar from "@/components/NavigationBar";
 
 /**
  * The properties for the basic layout component.
@@ -9,8 +9,6 @@ interface IBasicLayoutProps {
   /** The children to render. */
   children: ReactNode;
 }
-
-export type { IBasicLayoutProps };
 
 /**
  * Basic layout to wrap children.
